@@ -1,0 +1,89 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(to left, #2d2d30 50%, #242526 50%);
+}
+
+.text-btns h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.text-btns p {
+    color: white;
+    width: 550px;
+}
+
+.buy-btn button {
+    background: #1e1e1e;
+    border: none;
+    width: 135px;
+    height: 45px;
+    color: white;
+    border-radius: 50px;
+    font-size: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.buy-btn button:hover {
+    background-color: #007acc;
+    box-shadow: 0 0 0 5px #3b83f65f;
+    color: #fff;
+}
+
+.login-btn button {
+    background: #1e1e1e;
+    border: none;
+    width: 110px;
+    height: 45px;
+    color: white;
+    border-radius: 50px;
+    font-size: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 84%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    transition: .3s;
+}
+
+.login-btn button:hover {
+    background-color: #007acc;
+    box-shadow: 0 0 0 5px #3b83f65f;
+    color: #fff;
+}
+
+.text-btns {
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.gui img {
+    position: absolute;
+    top: -90%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    scale: 0.7;
+    transform: scaleX(1) scaleY(1) perspective(900px) rotateY(-15deg) rotateX(0deg) rotateZ(1deg);
+    transition: 0.25s ease-out;
+}
+
+.gui img:hover {
+
+    transform: scaleX(1) scaleY(1) perspective(900px) rotateY(0deg) rotateX(0deg) rotateZ(0deg);
+}
